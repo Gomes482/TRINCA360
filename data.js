@@ -1,12 +1,13 @@
 /* TRINCA 360 — banco de exercícios editável (v1.0) */
 window.TRINCA_DATA = {
-  version: '1.0.0',
+  version: '2.0.0',
   published: '12/10/2026',
   references: [
     {name:'ACSM — Treinamento resistido (posição de 2026)',org:'American College of Sports Medicine',url:'https://acsm.org/science-spotlight-acsm-releases-new-position-stand-on-resistance-training/',tag:'Treino'},
     {name:'OMS — Recomendações de atividade física',org:'Organização Mundial da Saúde',url:'https://www.who.int/initiatives/behealthy/physical-activity',tag:'Movimento'},
     {name:'Guia Alimentar para a População Brasileira',org:'Ministério da Saúde, Brasil',url:'https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view',tag:'Nutrição'},
-    {name:'ISSN — Protein and Exercise (revisão científica)',org:'International Society of Sports Nutrition',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/',tag:'Proteína'}
+    {name:'ISSN — Protein and Exercise (revisão científica)',org:'International Society of Sports Nutrition',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/',tag:'Proteína'},
+    {name:'National Academies — Dietary Reference Intakes for Water',org:'National Academies',url:'https://www.nationalacademies.org/read/10925/chapter/6',tag:'Hidratação'}
   ],
   exercises: {
     legpress: {name:'Leg press 45°',group:'Pernas',equipment:'Máquina',sets:2,reps:'10',image:'legpress',video:'https://musclewiki.com/pt-br/exercise/machine-leg-press',steps:['Ajuste o banco e apoie toda a lombar.','Pés alinhados aos ombros e joelhos na direção dos pés.','Desça até a amplitude confortável sem tirar a lombar do apoio.','Empurre a plataforma sem travar os joelhos.'],tip:'Controle a descida e comece com carga leve.',care:'Não arredonde a lombar nem trave os joelhos.'},
@@ -29,5 +30,15 @@ window.TRINCA_DATA = {
     B:{name:'Resistência',day:'Quarta-feira',subtitle:'Pernas, ombros, costas e core',accent:'#3F65E7',emoji:'◎',exercises:['goblet','row','shoulder','curlleg','deadbug']},
     C:{name:'Definição',day:'Sexta-feira',subtitle:'Corpo inteiro, com foco nos braços',accent:'#E17936',emoji:'✦',exercises:['step','incline','row','biceps','triceps']}
   },
-  phases:[{weeks:'1–2',title:'Base e técnica',body:'Conheça os movimentos. Se está começando ou voltando, faça 1 série por exercício até se sentir confortável.'},{weeks:'3–4',title:'Consistência',body:'Progrida para as 2 séries previstas, mantendo a técnica e pausas adequadas.'},{weeks:'5–6',title:'Progressão gradual',body:'Quando sobrar facilidade, aumente um pouco a carga de alguns movimentos sem sacrificar a execução.'},{weeks:'7–8',title:'Consolidação',body:'Compare sua constância, fôlego e cargas. Ajustes devem respeitar recuperação e eventuais dores.'}]
+  rotations: {
+    A:{name:'Força e base alternada',day:'Segunda-feira',subtitle:'Agachamento, peito, costas, glúteos e core',accent:'#087C71',exercises:['goblet','incline','row','bridge','deadbug']},
+    B:{name:'Resistência alternada',day:'Quarta-feira',subtitle:'Pernas, ombros, dorsal e abdômen',accent:'#3F65E7',exercises:['legpress','shoulder','pulldown','curlleg','plank']},
+    C:{name:'Definição alternada',day:'Sexta-feira',subtitle:'Degrau, peito, costas e braços',accent:'#E17936',exercises:['step','chest','row','biceps','triceps']}
+  },
+  phases:[
+    {weeks:'1–2',title:'Adaptação e técnica',body:'Iniciante/retomando: menos séries, esforço confortável e execução controlada.'},
+    {weeks:'3–6',title:'Construir consistência',body:'Complete a prescrição mantendo 2–3 repetições em reserva.'},
+    {weeks:'7–10',title:'Progredir com controle',body:'Priorize primeiro movimento do dia. Só progrida se a técnica estiver boa.'},
+    {weeks:'11–12',title:'Consolidar e reavaliar',body:'Reduza o esforço, compare carga, condicionamento e medidas e prepare a rotação.'}
+  ]
 };

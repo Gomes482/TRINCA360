@@ -1,7 +1,7 @@
 {
   "name": "TRINCA 360 — Treino e Evolução",
   "short_name": "TRINCA 360",
-  "description": "Treinos de 30 minutos, exercícios ilustrados, cronômetro, diário e nutrição baseada em evidências.",
+  "description": "Treinos de 30 ou 45 minutos, ciclos de 12 semanas, avaliação física, hidratação e nutrição orientativa.",
   "lang": "pt-BR",
   "id": "./",
   "start_url": "./index.html",
