@@ -1,4 +1,4 @@
-const CACHE='trinca360-v2.0.0';
+const CACHE='trinca360-v2.1.0';
 const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png',
   './assets/exercises/legpress.svg','./assets/exercises/chest.svg','./assets/exercises/pulldown.svg','./assets/exercises/bridge.svg','./assets/exercises/plank.svg','./assets/exercises/goblet.svg','./assets/exercises/row.svg','./assets/exercises/shoulder.svg','./assets/exercises/curlleg.svg','./assets/exercises/deadbug.svg','./assets/exercises/step.svg','./assets/exercises/incline.svg','./assets/exercises/biceps.svg','./assets/exercises/triceps.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
