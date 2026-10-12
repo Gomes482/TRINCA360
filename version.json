@@ -1,10 +1,10 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "released": "2026-10-12",
   "notes": [
-    "Atualizações no Perfil: verificação e aplicação sem reinstalar",
-    "Consulta da versão publicada com internet e opção de reinício controlado",
-    "Melhoria do carregamento do aplicativo para evitar versões antigas em cache",
-    "Treinos, medidas e histórico local preservados"
+    "Evolução programada: adaptação mantida até 3 dias distintos de fichas A/B/C completas",
+    "Registro de repetições reais e qualidade da execução por exercício",
+    "Dicas de progressão fundamentadas em duas sessões consistentes, sem aumento automático de carga",
+    "Manual atualizado; dados e treinos anteriores preservados"
   ]
 }
