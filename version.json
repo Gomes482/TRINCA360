@@ -1,0 +1,10 @@
+{
+  "version": "2.2.0",
+  "released": "2026-10-12",
+  "notes": [
+    "Atualizações no Perfil: verificação e aplicação sem reinstalar",
+    "Consulta da versão publicada com internet e opção de reinício controlado",
+    "Melhoria do carregamento do aplicativo para evitar versões antigas em cache",
+    "Treinos, medidas e histórico local preservados"
+  ]
+}

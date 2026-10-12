@@ -1,10 +1,20 @@
-const CACHE='trinca360-v2.1.0';
+/* TRINCA 360 — atualizador offline v2.2.0 */
+const CACHE='trinca360-v2.2.0';
 const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png',
   './assets/exercises/legpress.svg','./assets/exercises/chest.svg','./assets/exercises/pulldown.svg','./assets/exercises/bridge.svg','./assets/exercises/plank.svg','./assets/exercises/goblet.svg','./assets/exercises/row.svg','./assets/exercises/shoulder.svg','./assets/exercises/curlleg.svg','./assets/exercises/deadbug.svg','./assets/exercises/step.svg','./assets/exercises/incline.svg','./assets/exercises/biceps.svg','./assets/exercises/triceps.svg'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS.map(url=>new Request(url,{cache:'reload'})))).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('trinca360-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener('message',event=>{if(event.data&&event.data.type==='SKIP_WAITING')self.skipWaiting();});
 self.addEventListener('fetch',event=>{
-  const req=event.request;
-  if(req.method!=='GET'||new URL(req.url).origin!==self.location.origin)return;
-  event.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(req,copy));}return response;})));
+ const req=event.request,url=new URL(req.url);
+ if(req.method!=='GET'||!req.url.startsWith(self.registration.scope))return;
+ if(url.pathname.endsWith('/version.json')){event.respondWith(fetch(req,{cache:'no-store'}));return;}
+ if(req.mode==='navigate'){
+  event.respondWith(fetch(req,{cache:'no-store'}).then(response=>{
+   if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(req,copy));}return response;
+  }).catch(async()=>await caches.match(req)||await caches.match('./index.html')||Response.error()));return;
+ }
+ event.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(response=>{
+  if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(req,copy));}return response;
+ })));
 });
