@@ -1,10 +1,10 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "released": "2026-10-12",
   "notes": [
-    "Evolução programada: adaptação mantida até 3 dias distintos de fichas A/B/C completas",
-    "Registro de repetições reais e qualidade da execução por exercício",
-    "Dicas de progressão fundamentadas em duas sessões consistentes, sem aumento automático de carga",
-    "Manual atualizado; dados e treinos anteriores preservados"
+    "Novo no manual: QR Code para compartilhar e instalar o TRINCA 360 em outro celular",
+    "Link clicável e botão Copiar link, com instruções para Android e iPhone",
+    "Cada pessoa utiliza o próprio Perfil e histórico local no aparelho dela",
+    "Todos os 10 tópicos originais do manual foram preservados; treinos e dados não foram apagados"
   ]
 }
