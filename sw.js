@@ -1,6 +1,6 @@
-/* TRINCA 360 — atualizador offline v2.3.0 */
-const CACHE='trinca360-v2.3.0';
-const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png',
+/* TRINCA 360 — atualizador offline v2.4.0 */
+const CACHE='trinca360-v2.4.0';
+const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./manifest.webmanifest','./assets/trinca360-qr.svg','./assets/icon-192.png','./assets/icon-512.png',
   './assets/exercises/legpress.svg','./assets/exercises/chest.svg','./assets/exercises/pulldown.svg','./assets/exercises/bridge.svg','./assets/exercises/plank.svg','./assets/exercises/goblet.svg','./assets/exercises/row.svg','./assets/exercises/shoulder.svg','./assets/exercises/curlleg.svg','./assets/exercises/deadbug.svg','./assets/exercises/step.svg','./assets/exercises/incline.svg','./assets/exercises/biceps.svg','./assets/exercises/triceps.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS.map(url=>new Request(url,{cache:'reload'})))).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('trinca360-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
