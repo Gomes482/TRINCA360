@@ -31,3 +31,10 @@
 .body-latest-grid b{color:#174c38}
 #measure-history .history-row span{line-height:1.6;overflow-wrap:anywhere}
 @media(max-width:380px){.body-trend-grid,.body-latest-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* v2.6: ficha corporal em destaque nas telas principais */
+.measure-shortcut,.measure-top-action{margin:15px 0;padding:15px;border:1px solid #c5e2ce;border-radius:17px;background:#ecf7f0;display:grid;gap:11px}
+.measure-shortcut strong,.measure-top-action strong{display:block;font-size:15px;color:#13533d;line-height:1.35}
+.measure-shortcut p,.measure-top-action p{margin:5px 0 0;color:#4a6355;font-size:12px;line-height:1.55}
+.measure-shortcut .btn,.measure-top-action .btn{width:100%;font-weight:800}
+#measure-section{scroll-margin-top:16px}
