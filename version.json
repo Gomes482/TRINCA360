@@ -1,10 +1,10 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.0",
   "released": "2026-10-13",
   "notes": [
-    "Novo atalho Registrar minhas medidas na página inicial e no Perfil",
-    "Ficha de medidas acessível logo no início de Evolução, com rolagem direta ao formulário",
-    "Cintura, glúteos, braços e coxas direito/esquerdo, com histórico preservado",
-    "Correção de cache: carregamento mais confiável da versão atualizada sem desinstalar"
+    "Nova seção Minha avaliação de evolução interpreta as medidas conforme o objetivo no Perfil",
+    "Compara primeira e última medição por região e considera os treinos registrados nos últimos 28 dias",
+    "Identifica medições ainda sem comparação ou muito próximas no tempo, sem conclusões precipitadas",
+    "Exibe o resultado após salvar a avaliação e na página inicial, sem alterar séries automaticamente"
   ]
 }
