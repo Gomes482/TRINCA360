@@ -1,10 +1,10 @@
 {
-  "version": "2.4.0",
-  "released": "2026-10-12",
+  "version": "2.5.0",
+  "released": "2026-10-13",
   "notes": [
-    "Novo no manual: QR Code para compartilhar e instalar o TRINCA 360 em outro celular",
-    "Link clicável e botão Copiar link, com instruções para Android e iPhone",
-    "Cada pessoa utiliza o próprio Perfil e histórico local no aparelho dela",
-    "Todos os 10 tópicos originais do manual foram preservados; treinos e dados não foram apagados"
+    "Avaliação corporal: cintura, glúteos/quadril, braços e coxas direito/esquerdo",
+    "Comparativo inicial x recente e diferença por medida, sem apagar avaliações antigas",
+    "Check-in orientativo de medidas aproximadamente a cada quatro semanas, também visível no treino",
+    "Manual expandido, backup compatível e QR Code de compartilhamento validado"
   ]
 }
