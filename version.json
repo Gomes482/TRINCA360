@@ -1,10 +1,10 @@
 {
-  "version": "2.5.0",
+  "version": "2.6.0",
   "released": "2026-10-13",
   "notes": [
-    "Avaliação corporal: cintura, glúteos/quadril, braços e coxas direito/esquerdo",
-    "Comparativo inicial x recente e diferença por medida, sem apagar avaliações antigas",
-    "Check-in orientativo de medidas aproximadamente a cada quatro semanas, também visível no treino",
-    "Manual expandido, backup compatível e QR Code de compartilhamento validado"
+    "Novo atalho Registrar minhas medidas na página inicial e no Perfil",
+    "Ficha de medidas acessível logo no início de Evolução, com rolagem direta ao formulário",
+    "Cintura, glúteos, braços e coxas direito/esquerdo, com histórico preservado",
+    "Correção de cache: carregamento mais confiável da versão atualizada sem desinstalar"
   ]
 }
