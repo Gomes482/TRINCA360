@@ -14,3 +14,20 @@
 
 /* TRINCA 360 v2.4 — compartilhamento pelo manual */
 .share-app-section{background:#edf7f0;border:1px solid #cce7d3;border-radius:16px;padding:13px;margin-bottom:12px;text-align:center}.share-app-section>strong{display:block;font-size:15px;color:#15523c;margin-bottom:7px}.share-app-section>p{line-height:1.55}.share-qr-wrap{display:flex;justify-content:center;margin:12px auto 7px}.share-qr-image{width:240px;max-width:100%;height:auto;aspect-ratio:1;background:#fff;padding:2px;border:1px solid #dce6df;border-radius:9px}.help-copy .share-qr-caption{font-size:10px;letter-spacing:.07em;font-weight:850;color:#215640;margin:8px 0}.help-copy .share-url{overflow-wrap:anywhere;margin:12px 0;color:#274e3b}.share-url a{color:#095a4d;text-decoration:underline;font-weight:700}.share-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.share-actions .btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;flex:1;min-width:120px}.share-steps{padding-left:22px;font-size:12px;line-height:1.65;color:#465c4f}.share-steps li{margin:7px 0}.share-steps li::marker{font-weight:800;color:#087c71}
+
+/* TRINCA 360 v2.5 — acompanhamento corporal, responsivo e acessível */
+.body-trend{margin-top:18px;padding-top:17px;border-top:1px solid var(--line)}
+.body-trend h3{margin:0 0 8px;font-size:15px}
+.body-trend-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}
+.body-trend-item{border:1px solid #d9e7dc;background:#f6faf7;border-radius:13px;padding:12px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.body-trend-item strong{font-size:12px;color:#164f3c;line-height:1.4}
+.body-trend-item span{font-size:19px;font-weight:850;color:#183a2a;line-height:1.3}
+.body-trend-item small{font-size:11px;color:#516a5b;line-height:1.45}
+.body-trend-item span small{font-size:10px;font-weight:600}
+.body-latest{margin-top:14px;border-top:1px solid var(--line);padding-top:13px}
+.body-latest>strong{display:block;font-size:12px;color:#164f3c;margin-bottom:9px}
+.body-latest-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.body-latest-grid span{background:#f3f8f4;border:1px solid #e0ebdf;border-radius:9px;padding:9px;line-height:1.5;font-size:11px;color:#41604d;overflow-wrap:anywhere}
+.body-latest-grid b{color:#174c38}
+#measure-history .history-row span{line-height:1.6;overflow-wrap:anywhere}
+@media(max-width:380px){.body-trend-grid,.body-latest-grid{grid-template-columns:minmax(0,1fr)}}
