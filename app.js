@@ -170,7 +170,7 @@ function bodyAssessmentSnapshot(){
  const comparisons=BODY_FIELDS.map(field=>{const history=bodyFieldHistory(field.key);if(history.length<2)return null;const first=history[0],last=history.at(-1),elapsed=Math.max(0,Math.round((localDateFrom(last.date)-localDateFrom(first.date))/86400000));return {field,first,last,elapsed,delta:Number((Number(last[field.key])-Number(first[field.key])).toFixed(1))};}).filter(Boolean);
  const labels={definicao:'Definição muscular',forca:'Força e saúde',condicionamento:'Condicionamento'};
  const goal=store.profile.goal||'definicao';
- const start=new Date();start.setDate(start.getDate()-27);const cutoff=localDate(start),today=localDate();
+ const today=localDate(),start=localDateFrom(today);start.setDate(start.getDate()-27);const cutoff=localDate(start);
  const recent=store.sessions.filter(s=>typeof s.date==='string'&&s.date>=cutoff&&s.date<=today);
  const complete=recent.filter(s=>['A','B','C'].includes(s.day)&&s.partial===false&&Number(s.doneSets)>0).length;
  const avulsos=recent.filter(s=>s.type==='avulso'||s.day==='AVULSO').length;
