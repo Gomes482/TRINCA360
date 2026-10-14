@@ -53,3 +53,6 @@
 .body-assessment-teaser button{margin-top:7px}
 
 #body-assessment-section{scroll-margin-top:20px}
+
+/* TRINCA 360 v2.7.1 — proteção de tela durante o treino */
+.wake-card{margin:16px 0 5px;border-color:#b5dfd1;background:linear-gradient(145deg,#f5fbf5,#eaf6ec)}.wake-title{display:flex;align-items:center;gap:10px}.wake-title h3{margin:0}.wake-title .eyebrow{margin-bottom:3px}.wake-title .pill{margin-left:auto}.wake-glyph{display:grid;place-items:center;width:37px;height:37px;border-radius:12px;background:#d8f08e;color:#173c30;font-size:25px}.wake-card button:disabled{opacity:.65}
