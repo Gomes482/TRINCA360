@@ -56,3 +56,6 @@
 
 /* TRINCA 360 v2.7.1 — proteção de tela durante o treino */
 .wake-card{margin:16px 0 5px;border-color:#b5dfd1;background:linear-gradient(145deg,#f5fbf5,#eaf6ec)}.wake-title{display:flex;align-items:center;gap:10px}.wake-title h3{margin:0}.wake-title .eyebrow{margin-bottom:3px}.wake-title .pill{margin-left:auto}.wake-glyph{display:grid;place-items:center;width:37px;height:37px;border-radius:12px;background:#d8f08e;color:#173c30;font-size:25px}.wake-card button:disabled{opacity:.65}
+
+/* TRINCA 360 v2.8.0 — modalidades independentes */
+.modality-panel{border-color:#b8dbd0;background:linear-gradient(145deg,#f5fbf7,#e8f5ef);margin:16px 0}.modality-panel h2{margin:5px 0 9px}.modality-panel .form-field{margin-top:12px}.modality-panel [hidden]{display:none!important}

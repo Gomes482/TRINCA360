@@ -1,10 +1,10 @@
 {
-  "version": "2.7.1",
+  "version": "2.8.0",
   "released": "2026-10-14",
   "notes": [
-    "A tela tenta permanecer acesa automaticamente ao abrir uma ficha de treino, quando o navegador é compatível.",
-    "Novo botão Permitir apagar a tela / Manter tela acesa na ficha, sem alterar o brilho.",
-    "Ao finalizar ou sair do treino, a proteção é liberada; ao voltar ao aplicativo em primeiro plano pode ser retomada.",
-    "Preserva seus registros, o manual, a central de atualizações e as demais funções."
+    "Natação: lançamento avulso com sugestão de 45 minutos, no sábado e em qualquer outro dia.",
+    "Mais modalidades: corrida, caminhada, bicicleta, hidroginástica, dança, esportes, funcional, Pilates, yoga e outras.",
+    "Separação entre atividades, minutos aeróbicos e sessões de força; sem duplicar cardio nem marcar A/B/C indevidamente.",
+    "Histórico, manual e indicadores atualizados; dados locais anteriores preservados."
   ]
 }
