@@ -1,10 +1,10 @@
 {
-  "version": "2.8.0",
-  "released": "2026-10-14",
+  "version": "2.8.1",
+  "released": "2026-10-15",
   "notes": [
-    "Natação: lançamento avulso com sugestão de 45 minutos, no sábado e em qualquer outro dia.",
-    "Mais modalidades: corrida, caminhada, bicicleta, hidroginástica, dança, esportes, funcional, Pilates, yoga e outras.",
-    "Separação entre atividades, minutos aeróbicos e sessões de força; sem duplicar cardio nem marcar A/B/C indevidamente.",
-    "Histórico, manual e indicadores atualizados; dados locais anteriores preservados."
+    "Alerta em tela inteira quando terminam 60 segundos de descanso, com som suave e vibração se o aparelho permitir.",
+    "O descanso começa automaticamente após marcar uma série (exceto a última), com relógio corrigido pela hora real.",
+    "Botões Próxima série, Preciso de +30 segundos e controle para desligar ou ligar o som.",
+    "Proteção de tela, modalidades, histórico, manual e dados locais permanecem preservados."
   ]
 }

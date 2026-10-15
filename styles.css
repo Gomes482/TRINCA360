@@ -59,3 +59,16 @@
 
 /* TRINCA 360 v2.8.0 — modalidades independentes */
 .modality-panel{border-color:#b8dbd0;background:linear-gradient(145deg,#f5fbf7,#e8f5ef);margin:16px 0}.modality-panel h2{margin:5px 0 9px}.modality-panel .form-field{margin-top:12px}.modality-panel [hidden]{display:none!important}
+
+/* TRINCA 360 v2.8.1 — alerta de fim do descanso */
+.rest-sound-row{margin:11px 0 4px;padding:11px;background:#eef7f0;border:1px solid #d4e8d7;border-radius:14px;display:flex;align-items:center;gap:11px;flex-wrap:wrap}.rest-sound-row .footnote{flex:1;min-width:160px;margin:0}
+#rest-alert-root:empty{display:none}
+.rest-full-alert{position:fixed;inset:0;z-index:100;background:#103e36;color:#fff;display:grid;place-items:center;padding:24px max(16px,env(safe-area-inset-left)) max(25px,env(safe-area-inset-bottom));text-align:center;overflow-y:auto}
+.rest-alert-inner{max-width:440px;width:100%;display:flex;flex-direction:column;align-items:center;gap:14px}
+.rest-alert-symbol{width:94px;height:94px;display:grid;place-items:center;border-radius:50%;background:#d8f08e;color:#103e36;font-size:55px;font-weight:900}
+.rest-full-alert .eyebrow{color:#d8f08e;margin:7px 0 0}
+.rest-full-alert h2{font-size:clamp(30px,8vw,46px);font-weight:950;line-height:1.05;letter-spacing:-1.7px;margin:0}
+.rest-full-alert p{font-size:15px;line-height:1.55;color:#e0eee8;margin:0}
+.rest-alert-buttons{width:100%;display:grid;gap:10px;margin:14px 0 5px}
+.rest-full-alert .rest-alert-caption{font-size:11px;opacity:.78}
+.rest-full-alert .btn.outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
