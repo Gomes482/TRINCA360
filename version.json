@@ -1,9 +1,10 @@
 {
-  "version": "3.1.3",
+  "version": "3.2.0",
   "released": "2026-10-16",
   "notes": [
-    "Ícone do ChatGPT exibido no cartão de acesso externo, no Início e em Nutrição, com símbolo preto sobre fundo branco.",
-    "O símbolo é incorporado à interface, sem carregamento de imagem externo; mantém o botão e o aviso de que não existe integração de API.",
-    "Manual 7.1 atualizado para identificar o botão; histórico, calorias, nivelamento e demais funcionalidades preservados."
+    "40 perguntas guiadas do TRINCA com resposta rápida, link para abrir o ChatGPT com a pergunta preparada e alternativa Copiar pergunta.",
+    "Nova página por categorias, busca, dúvidas populares e campo para escrever sua própria pergunta.",
+    "Acesso pelo Início, Nutrição e Manual 7.1; nenhum dado do perfil, medidas ou histórico é anexado automaticamente ao link, e não há consumo de API pelo TRINCA.",
+    "O ChatGPT pode exigir que o usuário toque em Enviar; instruções e contingência estão visíveis no próprio app."
   ]
 }

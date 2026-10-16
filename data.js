@@ -1,6 +1,6 @@
-/* TRINCA 360 — banco de exercícios editável (v3.1.3) */
+/* TRINCA 360 — banco de exercícios editável (v3.2.0) */
 window.TRINCA_DATA = {
-  version: '3.1.3',
+  version: '3.2.0',
   published: '16/10/2026',
   references: [
     {name:'ACSM — Treinamento resistido (posição de 2026)',org:'American College of Sports Medicine',url:'https://acsm.org/science-spotlight-acsm-releases-new-position-stand-on-resistance-training/',tag:'Treino'},
