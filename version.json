@@ -1,9 +1,9 @@
 {
-  "version": "3.1.2",
+  "version": "3.1.3",
   "released": "2026-10-16",
   "notes": [
-    "Novo botão Tirar dúvidas no ChatGPT, disponível no Início e na aba Nutrição, abre o serviço oficial em outra página.",
-    "Acesso externo opcional, sem integração de API ou envio automático de Perfil, medidas e histórico do TRINCA 360.",
-    "Manual 7.1 explica uso, privacidade, conferência de fontes e limites das respostas. Dados e recursos anteriores preservados."
+    "Ícone do ChatGPT exibido no cartão de acesso externo, no Início e em Nutrição, com símbolo preto sobre fundo branco.",
+    "O símbolo é incorporado à interface, sem carregamento de imagem externo; mantém o botão e o aviso de que não existe integração de API.",
+    "Manual 7.1 atualizado para identificar o botão; histórico, calorias, nivelamento e demais funcionalidades preservados."
   ]
 }
