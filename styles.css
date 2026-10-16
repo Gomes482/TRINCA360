@@ -72,3 +72,23 @@
 .rest-alert-buttons{width:100%;display:grid;gap:10px;margin:14px 0 5px}
 .rest-full-alert .rest-alert-caption{font-size:11px;opacity:.78}
 .rest-full-alert .btn.outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+
+/* TRINCA 360 v2.8.2 — layout responsivo sem moldura estreita
+   Algumas configurações de exibição do Android podem expor um viewport CSS
+   maior que 700px: manter toda a área disponível e evitar o cartão de 650px. */
+html,body{width:100%;min-width:0;margin:0;padding:0}
+.app-shell{width:100%;max-width:none;min-width:0;margin:0;min-height:100dvh;border:0;border-radius:0;overflow:visible;box-shadow:none}
+.topbar{width:100%}
+main{width:100%;max-width:none;min-width:0;margin:0;padding:19px clamp(16px,2.5vw,32px) 130px}
+.bottom-nav{width:100%;max-width:none;left:0;transform:none;border-radius:0}
+.global-credit{width:100%;max-width:none}
+@media(min-width:700px){
+ body{padding:0}
+ .app-shell{min-height:100dvh;border:0;border-radius:0;overflow:visible}
+ main{padding:19px clamp(16px,2.5vw,32px) 130px}
+ .bottom-nav{border-radius:0}
+}
+@media(max-width:1099px){
+ .modal-scrim{align-items:flex-end}
+ .modal{width:100%;max-width:none;max-height:91dvh;border-radius:27px 27px 0 0}
+}
