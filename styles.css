@@ -104,3 +104,6 @@ main{width:100%;max-width:none;min-width:0;margin:0;padding:19px clamp(16px,2.5v
 
 /* TRINCA 360 v3.1.1 — explicação permanente e destacada das calorias ativas */
 .calorie-definition{padding:13px 14px;margin:12px 0;border:1px solid #b8d1c6;border-left:4px solid #087c71;background:#fff;border-radius:12px;color:#173a30}.calorie-definition strong{display:block;font-size:13px;margin-bottom:6px}.calorie-definition p{margin:0;font-size:12px;line-height:1.6;color:#28483f}
+
+/* v3.1.2: ChatGPT externo e opcional, sem API */
+.chatgpt-help{border:1px solid #c8dcd6;background:linear-gradient(145deg,#fafdf9,#ecf6f0);margin:14px 0}.chatgpt-help h3{margin:6px 0 8px;font-size:17px}.chatgpt-help p{line-height:1.55;margin:8px 0}.chatgpt-help .chatgpt-link{display:flex;align-items:center;justify-content:center;min-height:45px;margin:13px 0 10px;text-align:center;text-decoration:none}.chatgpt-help .footnote{font-size:11px;color:#52685e;margin-bottom:0}

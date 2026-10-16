@@ -1,9 +1,9 @@
 {
-  "version": "3.1.1",
+  "version": "3.1.2",
   "released": "2026-10-16",
   "notes": [
-    "Aviso em destaque no Início e na Evolução esclarece que kcal ativas estimadas representam gasto adicional acima do repouso, não medição exata.",
-    "Texto explícito: estimativa de calorias não equivale a gordura perdida, emagrecimento nem déficit alimentar.",
-    "Manual 8.5 atualizado com o mesmo esclarecimento; mantidos os cálculos, registros, gráfico e recursos do TRINCA 360."
+    "Novo botão Tirar dúvidas no ChatGPT, disponível no Início e na aba Nutrição, abre o serviço oficial em outra página.",
+    "Acesso externo opcional, sem integração de API ou envio automático de Perfil, medidas e histórico do TRINCA 360.",
+    "Manual 7.1 explica uso, privacidade, conferência de fontes e limites das respostas. Dados e recursos anteriores preservados."
   ]
 }
