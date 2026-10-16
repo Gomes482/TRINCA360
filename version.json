@@ -1,9 +1,10 @@
 {
-  "version": "2.8.2",
+  "version": "2.9.0",
   "released": "2026-10-15",
   "notes": [
-    "Corrigida a largura do aplicativo no Android: layout principal ocupa toda a tela, sem faixas vazias nas laterais.",
-    "Barra inferior e área de treino também seguem a largura disponível, inclusive quando o navegador interpreta o aparelho como tela larga.",
-    "Preservados alerta sonoro de descanso, proteção de tela, natação, manual e todos os registros locais."
+    "Orientação integrada combina objetivo, experiência, medidas datadas, fichas A/B/C e cardio.",
+    "Foco individual aparece em Início, Prescrição, Evolução e Perfil; cintura/peso para definição, desempenho para força e minutos aeróbicos para condicionamento.",
+    "Medições isoladas não alteram automaticamente séries ou cargas nem geram diagnósticos clínicos.",
+    "Preservados dados locais, natação, alerta de descanso e layout em tela cheia."
   ]
 }

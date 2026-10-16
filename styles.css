@@ -92,3 +92,6 @@ main{width:100%;max-width:none;min-width:0;margin:0;padding:19px clamp(16px,2.5v
  .modal-scrim{align-items:flex-end}
  .modal{width:100%;max-width:none;max-height:91dvh;border-radius:27px 27px 0 0}
 }
+
+/* v2.9.0 - avaliação corporal integrada na orientação */
+.assessment-integrated{border-color:#cce3d9;background:linear-gradient(145deg,#f7fcf8,#eaf6ee);margin:14px 0}.assessment-integrated h3{margin:6px 0 12px}.assessment-integrated-point{background:#fff;border:1px solid #dcece2;padding:12px;border-radius:13px;margin:9px 0}.assessment-integrated-point strong{color:#086c59;font-size:12px}.assessment-integrated-point p{margin:6px 0 0;font-size:12px}.assessment-integrated-mini{background:#edf7ef;border:1px solid #d1e6d9;padding:12px;border-radius:12px;margin:12px 0}.assessment-integrated-mini strong{font-size:12px}.assessment-integrated-mini p{margin:6px 0;font-size:11px;line-height:1.55}
