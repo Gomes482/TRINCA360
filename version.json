@@ -1,10 +1,10 @@
 {
-  "version": "2.9.0",
+  "version": "3.0.0",
   "released": "2026-10-15",
   "notes": [
-    "Orientação integrada combina objetivo, experiência, medidas datadas, fichas A/B/C e cardio.",
-    "Foco individual aparece em Início, Prescrição, Evolução e Perfil; cintura/peso para definição, desempenho para força e minutos aeróbicos para condicionamento.",
-    "Medições isoladas não alteram automaticamente séries ou cargas nem geram diagnósticos clínicos.",
-    "Preservados dados locais, natação, alerta de descanso e layout em tela cheia."
+    "Novo nivelamento opcional no Perfil com cinco perguntas: histórico, frequência recente, técnica, controle do esforço e recuperação.",
+    "Três níveis: Base/readaptação, Intermediário e Avançado; séries das fichas A/B/C adaptadas ao nível, à duração e aos dias completos registrados.",
+    "O perfil antigo mantém sua prescrição até salvar voluntariamente a nova avaliação; medidas corporais não alteram níveis ou cargas sozinhas.",
+    "Manual atualizado. Histórico, natação, descanso sonoro e layout em tela cheia preservados."
   ]
 }
