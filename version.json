@@ -1,10 +1,10 @@
 {
-  "version": "3.0.0",
-  "released": "2026-10-15",
+  "version": "3.1.0",
+  "released": "2026-10-16",
   "notes": [
-    "Novo nivelamento opcional no Perfil com cinco perguntas: histórico, frequência recente, técnica, controle do esforço e recuperação.",
-    "Três níveis: Base/readaptação, Intermediário e Avançado; séries das fichas A/B/C adaptadas ao nível, à duração e aos dias completos registrados.",
-    "O perfil antigo mantém sua prescrição até salvar voluntariamente a nova avaliação; medidas corporais não alteram níveis ou cargas sozinhas.",
-    "Manual atualizado. Histórico, natação, descanso sonoro e layout em tela cheia preservados."
+    "Estimativa de kcal ativas com base em MET, peso e duração de musculação, caminhada, natação e outras atividades.",
+    "Resumo semanal e mensal com gráfico de linha dos últimos 12 meses e variação em relação ao mês anterior.",
+    "Evita duplicar os componentes de cardio e força no mesmo treino e reaproveita registros antigos quando existem dados suficientes.",
+    "Manual 8.5 descreve fórmula, fatores, fontes, exemplo numérico, limitações e ausência de cálculo de ingestão alimentar."
   ]
 }
