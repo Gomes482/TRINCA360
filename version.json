@@ -1,10 +1,9 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "released": "2026-10-16",
   "notes": [
-    "Estimativa de kcal ativas com base em MET, peso e duração de musculação, caminhada, natação e outras atividades.",
-    "Resumo semanal e mensal com gráfico de linha dos últimos 12 meses e variação em relação ao mês anterior.",
-    "Evita duplicar os componentes de cardio e força no mesmo treino e reaproveita registros antigos quando existem dados suficientes.",
-    "Manual 8.5 descreve fórmula, fatores, fontes, exemplo numérico, limitações e ausência de cálculo de ingestão alimentar."
+    "Aviso em destaque no Início e na Evolução esclarece que kcal ativas estimadas representam gasto adicional acima do repouso, não medição exata.",
+    "Texto explícito: estimativa de calorias não equivale a gordura perdida, emagrecimento nem déficit alimentar.",
+    "Manual 8.5 atualizado com o mesmo esclarecimento; mantidos os cálculos, registros, gráfico e recursos do TRINCA 360."
   ]
 }
