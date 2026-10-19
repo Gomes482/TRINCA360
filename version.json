@@ -1,10 +1,10 @@
 {
-  "version": "3.2.0",
-  "released": "2026-10-16",
+  "version": "3.2.1",
+  "released": "2026-10-19",
   "notes": [
-    "40 perguntas guiadas do TRINCA com resposta rápida, link para abrir o ChatGPT com a pergunta preparada e alternativa Copiar pergunta.",
-    "Nova página por categorias, busca, dúvidas populares e campo para escrever sua própria pergunta.",
-    "Acesso pelo Início, Nutrição e Manual 7.1; nenhum dado do perfil, medidas ou histórico é anexado automaticamente ao link, e não há consumo de API pelo TRINCA.",
-    "O ChatGPT pode exigir que o usuário toque em Enviar; instruções e contingência estão visíveis no próprio app."
+    "Cronômetro A/B/C salvo a cada segundo e recuperado após saída, recarregamento, travamento ou atualização do aplicativo.",
+    "Ao sair ou trocar de tela o relógio pausa, sem somar o tempo fora do app. No Início aparece Retomar treino com tempo salvo; na ficha, use Continuar.",
+    "Cronômetros independentes por ficha, zerar com confirmação e limpeza somente ao salvar a sessão concluída.",
+    "O backup também inclui os cronômetros; séries, cargas, medidas, calorias, perguntas guiadas e demais funcionalidades preservadas. Manual 3.1 atualizado."
   ]
 }
