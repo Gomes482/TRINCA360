@@ -122,3 +122,55 @@ main{width:100%;max-width:none;min-width:0;margin:0;padding:19px clamp(16px,2.5v
 
 /* Fichas D/E navegáveis mesmo em celulares estreitos */
 .tab-row{overflow-x:auto;max-width:100%;scrollbar-width:thin;-webkit-overflow-scrolling:touch}.tab-row .tab-pill{flex:0 0 auto;white-space:nowrap}
+
+/* TRINCA 360 v3.3.1 — iPhone: corrigir checkbox herdando tamanho de campo de texto */
+#personal-plan-form .plan-focus-grid{
+  min-width:0;
+  width:100%;
+}
+#personal-plan-form .plan-focus-grid .plan-focus-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  width:100%;
+  min-width:0;
+  max-width:100%;
+  cursor:pointer;
+}
+#personal-plan-form .plan-focus-grid .plan-focus-item input[type="checkbox"]{
+  -webkit-appearance:checkbox;
+  appearance:auto;
+  display:block;
+  box-sizing:border-box;
+  width:19px;
+  min-width:19px;
+  max-width:19px;
+  height:19px;
+  min-height:19px;
+  max-height:19px;
+  flex:0 0 19px;
+  margin:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  accent-color:#087c71;
+}
+#personal-plan-form .plan-focus-grid .plan-focus-item span{
+  display:block;
+  flex:1 1 auto;
+  min-width:0;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  line-height:1.4;
+  font-weight:700;
+  color:#214b37;
+}
+@media(max-width:480px){
+  #personal-plan-form .plan-focus-grid{
+    grid-template-columns:minmax(0,1fr);
+  }
+  #personal-plan-form .plan-focus-grid .plan-focus-item{
+    min-height:48px;
+    padding:11px 13px;
+  }
+}

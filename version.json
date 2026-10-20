@@ -1,10 +1,9 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "released": "2026-10-19",
   "notes": [
-    "Novo Meu Plano Personalizado opcional no Perfil: escolha três, quatro ou cinco dias de musculação, duração de 30/45/60 minutos e até duas prioridades musculares.",
-    "A prévia organiza fichas A/B/C, A–D ou A–E; glúteos, peito, costas, pernas, ombros, braços e abdômen podem receber ênfase em dias compatíveis.",
-    "Quatro exercícios novos com instruções e cuidados; nivelamento limita o volume, sobretudo para quem está em readaptação.",
-    "Treinos concluídos e medições preservados, cronômetros independentes para todas as fichas, mudança bloqueada com treino em andamento, retorno opcional ao plano clássico e Manual 2.8 atualizado."
+    "Corrige a tela Meu Plano Personalizado no iPhone/Safari: as caixas de seleção deixam de herdar o tamanho dos campos de texto.",
+    "Em celulares de até 480 px, as prioridades musculares aparecem numa coluna, com checkbox à esquerda e nome completo dentro do cartão.",
+    "Somente ajuste visual e renovação de cache: preserva divisões de 3/4/5 dias, fichas, séries, cronômetros, dados e backup."
   ]
 }
