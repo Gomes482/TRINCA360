@@ -1,10 +1,10 @@
 {
-  "version": "3.2.1",
+  "version": "3.3.0",
   "released": "2026-10-19",
   "notes": [
-    "Cronômetro A/B/C salvo a cada segundo e recuperado após saída, recarregamento, travamento ou atualização do aplicativo.",
-    "Ao sair ou trocar de tela o relógio pausa, sem somar o tempo fora do app. No Início aparece Retomar treino com tempo salvo; na ficha, use Continuar.",
-    "Cronômetros independentes por ficha, zerar com confirmação e limpeza somente ao salvar a sessão concluída.",
-    "O backup também inclui os cronômetros; séries, cargas, medidas, calorias, perguntas guiadas e demais funcionalidades preservadas. Manual 3.1 atualizado."
+    "Novo Meu Plano Personalizado opcional no Perfil: escolha três, quatro ou cinco dias de musculação, duração de 30/45/60 minutos e até duas prioridades musculares.",
+    "A prévia organiza fichas A/B/C, A–D ou A–E; glúteos, peito, costas, pernas, ombros, braços e abdômen podem receber ênfase em dias compatíveis.",
+    "Quatro exercícios novos com instruções e cuidados; nivelamento limita o volume, sobretudo para quem está em readaptação.",
+    "Treinos concluídos e medições preservados, cronômetros independentes para todas as fichas, mudança bloqueada com treino em andamento, retorno opcional ao plano clássico e Manual 2.8 atualizado."
   ]
 }
