@@ -1,9 +1,11 @@
 {
-  "version": "3.3.1",
-  "released": "2026-10-19",
+  "version": "3.5.0",
+  "released": "2026-11-19",
   "notes": [
-    "Corrige a tela Meu Plano Personalizado no iPhone/Safari: as caixas de seleção deixam de herdar o tamanho dos campos de texto.",
-    "Em celulares de até 480 px, as prioridades musculares aparecem numa coluna, com checkbox à esquerda e nome completo dentro do cartão.",
-    "Somente ajuste visual e renovação de cache: preserva divisões de 3/4/5 dias, fichas, séries, cronômetros, dados e backup."
+    "A última carga de cada exercício é automaticamente preenchida nas próximas fichas A/B/C/D/E, usando sessões antigas já salvas no mesmo navegador.",
+    "Visualização da carga anterior, data, número de séries, qualidade registrada e histórico das seis últimas cargas diretamente no cartão do exercício.",
+    "A aba Evolução agora resume a progressão de carga de cada exercício, com diferenças entre as últimas sessões registradas.",
+    "A carga pode ser alterada ou apagada; séries, repetições, RIR e execução do novo treino permanecem sem marcação automática. Manual 3.2 atualizado.",
+    "Chave de armazenamento, dados, backup, cronômetros, calendário e planos personalizados preservados."
   ]
 }
